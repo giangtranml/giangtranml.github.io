@@ -1,0 +1,18 @@
+---
+layout: post
+title: SSD - Single Shot Multibox Detector
+categories: [Machine Learning, Deep Learning, CV]
+---
+This post summarize the Object Detection model: SSD - Single Shot Multibox Detector (Liu et al, 2016).
+
+Alongside with region proposal detector like: R-CNN, Fast R-CNN, Faster R-CNN, SSD eliminates the region proposal stage so that it's fast and also faster than YOLO.
+
+The SSD approach is based on a feed-forward convolutional network that produces a fixed-size collection of bounding boxes and scores for the presence of object class instances in those boxes, followed by a non-maximum suppression step to produce the final detections. It has some key features:
+
+- Multi-scale feature maps for detection.
+- Convolutional predictors for detection.
+- Default boxes and aspect ratio.
+
+<div class="featured-image">
+	<img src="/images/SSD.png">
+</div>

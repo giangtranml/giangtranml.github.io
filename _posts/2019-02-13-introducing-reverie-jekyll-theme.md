@@ -11,6 +11,7 @@ This is a plug-and-play Jekyll theme which you can use on GitHub Pages without e
 ![](/images/reverie-demo.png)
 
 ## Features overview
+The very first Machine Learning model when we start learning is Linear Regression.
 
 - Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
 - Fully responsive and mobile optimized base theme
@@ -33,7 +34,7 @@ This is a plug-and-play Jekyll theme which you can use on GitHub Pages without e
 </div>
 
 ## Using Reverie on GitHub Pages
-
+$$a%$$
 ### Step 1) Fork Reverie to your User Repository
 
 Fork [this repository](https://github.com/amitmerchant1990/reverie), then rename the repository to `yourgithubusername.github.io`.

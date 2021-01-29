@@ -1,0 +1,19 @@
+---
+layout: post
+title: DARTS - Differentiable Architecture Seach
+categories: [Machine Learning, Deep]
+---
+This post summarize the work Differentiable Architecture Search (Liu et al, 2018) - CNN Part.
+
+As the name suggest, alongside with other AutoML/NAS(Neural Architecture Search) approachs using Reinforcement Learning, Bayes Optimization or Evolutionary algorithm, DARTS uses gradient-based method by relaxing the search space to continuous, then jointly optimize architecture parameters $\alpha$ and weight parameters $\mathbf{w}$ (bi-level optimization).
+
+The authors observed that the typical Convolutional Neural Network is the repetition of some motifs/blocks/cells (like Resisual block in ResNet, Inception Module in InceptionNet). So, instead of find the best network, they only find the optimial cell.
+
+In DARTS, a cell is a Directed Acyclic Graph (DAG), it includes $k$ nodes, each node connects to preceding nodes.
+Each edge that connects a pair of nodes $(i, j)$, applies some predefined operations (convolution, seperable convolution, pooling, and more).
+
+After training finish, the authors derive the final architecture from architecture parameters $\alpha$.
+
+<div class="featured-image">
+<img src="/assets/img/ml/darts.png" class="fit image">
+</div>
