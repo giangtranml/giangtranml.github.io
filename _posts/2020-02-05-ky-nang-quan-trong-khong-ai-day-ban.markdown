@@ -36,7 +36,7 @@ Ngày nay, con người có thể sống cả đời mà không bao giờ phải
 
 Chúng ta ngày càng mất kết nối với bản thân, và đó chính là vấn đề.
 <div class="featured-image">
-	<img src="/assets/img/blog-3-1.png">
+	<img src="/images/blog-3-1.png">
 </div> 
 Buồn chán như là một chế độ kích thích.
 

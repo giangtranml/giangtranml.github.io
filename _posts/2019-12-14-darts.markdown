@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DARTS - Differentiable Architecture Seach
-categories: [Machine Learning, Deep]
+categories: [Machine Learning, Deep Learning]
 ---
 This post summarize the work Differentiable Architecture Search (Liu et al, 2018) - CNN Part.
 

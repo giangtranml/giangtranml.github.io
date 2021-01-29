@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SSD - Single Shot Multibox Detector
-categories: [Machine Learning, Deep Learning, CV]
+categories: [Machine Learning, Deep Learning, Computer Vision]
 ---
 This post summarize the Object Detection model: SSD - Single Shot Multibox Detector (Liu et al, 2016).
 
