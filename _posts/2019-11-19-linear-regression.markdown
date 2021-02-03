@@ -49,8 +49,6 @@ If learning is too small, the convergence is so slow, and probably no converge.
 
 Below is polynomial linear regression, although it’s a curve but our optimization is still respect to $\mathbf{w}$ which is linear.
 
-<div class="featured-image">
-	<img src="/images/linear_regression_2.gif" alt="Linear Regression 2" class="fit image">
-</div>
+<img src="/images/linear_regression_2.gif" alt="Linear Regression 2" class="fit image">
 
 For linear regression implementation, checkout <a href="https://github.com/giangtranml/ml-from-scratch/tree/master/linear_regression">here</a>.

@@ -16,7 +16,7 @@ $$\mbox{Logistic regression: }\mathbf{z} = \sigma(\mathbf{h}) = P(y = 1 | x) = \
 The graph of sigmoid function:
 
 <div class="featured-image">
-	<img src="https://miro.medium.com/max/4000/1*JHWL_71qml0kP_Imyx4zBg.png">
+	<img src="/images/logistic_regression_1.png">
 </div>
 
 <p style="text-align: center;">Graph of Sigmoid function.</p>
@@ -26,19 +26,19 @@ We can see that its upper bound is 1 and lower bound is 0, this property makes s
 Intuitively, given a dataset with $\mathbf{X}$ is a matrix of features and $\mathbf{y}$ is vector label either positive or negative class, we want to classify which data point $\mathbf{x}_i$ belongs to. That means, visually, we find a line/plane/hyperplane (decision boundary) that split our data into 2 regions. That intuition is using mostly for SVM algorithm.
 
 <div class="featured-image">
-	<img src="https://miro.medium.com/max/524/1*4xeOZVXqPwjEtW98APSM4g.png">
+	<img src="/images/logistic_regression_2.png">
 	<p style="text-align: center;">SVM: best line split data into 2 regions. </p>
 </div>
 
 But, logistic regression intuition is different. It maps data points to a higher dimension, e.g: 2 dimension -> 3 dimension, with the new added dimension corresponding probability of classes. By default, I choose if data points have probability ≥ 0.5 is class 1, and class 0 otherwise.
 
 <div class="featured-image">
-	<img src="https://miro.medium.com/max/750/1*YW_pEBtrVzPI0JKIUKwdfQ.png">
+	<img src="/images/logistic_regression_3.png">
 	<p style="text-align: center;">The shape of logistic regression mapping from 2D -> 3D.</p>
 </div>
 
 <div class="featured-image">
-	<img src="https://miro.medium.com/max/750/1*XJB2lzeuaD60qsIMFiyPFg.png">
+	<img src="/images/logistic_regression_4.png">
 	<p style="text-align: center;">Look from top-down aspect.</p>
 </div>
 
@@ -71,7 +71,7 @@ $$\mathbf{w} = \mathbf{w} - \alpha \frac{\partial J}{\partial \mathbf{w}} $$
 We’re sure that it will converge in finite steps.
 
 <div class="featured-image">
-	<img src="/assets/img/ml/logistic_regression.gif">
+	<img src="/images/logistic_regression.gif">
 </div>
 
 For logistic regression implementation, checkout <a href="https://github.com/giangtranml/ml-from-scratch/tree/master/logistic_regression">here</a>.
